@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import {
   Home,
   Explore,
+  Messages,
   Saved,
   CreatePost,
   Profile,
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/saved" element={<Saved />} />
           <Route path="/all-users" element={<AllUsers />} />
           <Route path="/create-post" element={<CreatePost />} />
+          <Route path="/messages" element={<Messages />} />
           <Route path="/update-post/:id" element={<EditPost />} />
           <Route path="/posts/:id" element={<PostDetails />} />
           <Route path="/profile/:id/*" element={<Profile />} />
